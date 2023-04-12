@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- Link to Font Awesome -->
+  <script src="https://kit.fontawesome.com/d11723fac3.js" crossorigin="anonymous"></script>
+  <!-- Link to Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Google Maps -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script type="module" src="../js/map.js"></script>
+  <!-- Link to google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href='https://fonts.googleapis.com/css?family=Noto Serif Kannada' rel='stylesheet'>
+
+  <!-- Logo -->
+  <link rel="icon" href="../img/Logo.png">
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+
+  <nav class="navbar sticky-top navbar-expand-lg bg-light topnav">
+    <div style="position: absolute;">
+      <!-- Display of date and time -->
+      <div class="date"></div>
+      <div class="time"></div>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Home -->
+        <li class="nav-item">
+          <i class="center fas fa-home"></i>
+          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <!-- Utdanning -->
+        <li class="nav-item">
+          <i class="center fas fa-school"></i>
+          <a class="nav-link active" href="../html/education.html">Education</a>
+        </li>
+        <!-- Arbeidserfaring -->
+        <li class="nav-item">
+          <i class="center fas fa-briefcase"></i>
+          <a class="nav-link" href="../html/work-experience.html">Work Experience</a>
+        </li>
+        <!-- Hobbyer-->
+        <li class="nav-item">
+          <i class="center fas fa-headset"></i>
+          <a class="nav-link" href="../html/hobbies.html">Hobbies</a>
+        </li>
+        <!-- DrumKit -->
+        <li class="nav-item">
+          <i class="center fas fa-drum"></i>
+          <a class="nav-link" href="../html/drumkit.html">DrumKit</a>
+        </li>
+        <!-- Dice Game -->
+        <li class="nav-item">
+          <i class="center fas fa-dice"></i>
+          <a class="nav-link" href="../html/dicee.html">Dice Game</a>
+        </li>
+        <!-- Tutorial -->
+        <li class="nav-item">
+          <i class="center fas fa-signal"></i>
+          <a class="nav-link" href="../html/tutorial.html">Tutorial</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <!-- Education -->
+  <h1 class="text-center">Education</h1>
+  <hr class="border border-primary border-3 opacity-75 hr1">
+  <br>
+
+  <!-- Education table-->
+  <table class="table text-center" style="width: 80%; margin-left: auto; margin-right: auto;">
+    <thead>
+      <tr>
+        <th>Time/Date</th>
+        <th>School</th>
+        <th>Education</th>
+        <th>Image</th>
+      </tr>
+      <!-- Elementary School-->
+      <tr>
+        <td>August 2012 - June 2019</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/rekustad-skole/" target="_blank">Rekustad Skole</a></td>
+        <td>Primary School</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/rekustad-skole/" target="_blank">
+            <img class="educationimages" src="../img/Education/Rekustad skole.png" alt="Rekustad skole"></a></td>
+      </tr>
+      <!-- Secondary School -->
+      <tr>
+        <td>August 2019 - June 2022</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/haugeasen-uskole/" target="_blank">Haugeåsen
+            Ungdomsskole</a></td>
+        <td>Lower Secondary School</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/haugeasen-uskole/" target="blank">
+            <img class="educationimages" src="../img/Education/Haugeåsen ungdomsskole.png"
+              alt="Haugeåsen ungdomsskole"></a></td>
+      </tr>
+      <!-- Upper Secondary School / High School-->
+      <tr>
+        <td>August 2022 - June 2023</td>
+        <td><a href="https://viken.no/glemmen-vgs/" target="_blank">Glemmen Videregående Skole</a></td>
+        <td>Vocational <br> Information Technology and Media Production</td>
+        <td><a href="https://viken.no/glemmen-vgs/" target="_blank">
+            <img class="educationimages" src="../img/Education/Glemmen VGS.png" alt="Glemmen Videregående Skole"></a>
+        </td>
+      </tr>
+    </thead>
+  </table>
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-color text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+
+      <!-- Right -->
+    </section>
+
+    <!-- Section: Social media -->
+
+    <div class="row d-inline-flex">
+      <!-- Email -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;" href="mailto:aleksanhol1@gmail.com"
+        role="button"><i class="fas fa-envelope"></i></a>
+      <!-- Phone -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;" href="tel:980-19-602"
+        role="button"><i class="fas fa-phone"></i></a>
+      <!-- Instagram -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;"
+        href="https://www.instagram.com/aleks06ander/?next=%2Faleks06ander%2F" role="button" target="_blank">
+        <i class="fab fa-instagram"></i></a>
+      <!-- Facebook -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;"
+        href="https://www.facebook.com/alehol06" role="button" target="_blank">
+        <i class="fab fa-facebook"></i></a>
+    </div>
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3" style="margin-right: 60px;"></i>
+            </h6>
+            <p>
+              <a href="https://viken.no/glemmen-vgs/" style="margin-right: 80px;" target="_blank">Glemmen VGS</a>
+            </p>
+            <a href="https://viken.no/glemmen-vgs/" target="_blank"><img class="longsizedimg" style="margin-left: -20%;"
+                src="../img/Education/Glemmen VGS.png" alt="My School"></a>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <p>Where to find me:</p>
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <script
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmfCdyHbqbEycFqO5gKXxzSUcU6SVD6fA&callback=initMap&v=weekly"
+              defer></script>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">CONTACT ME</h6>
+            <p> <i class="fas fa-home me-3"></i> Gullskåret, 1664 Rolvsøy, Norway</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              <a href="mailto:aleksanhol1@gmail.com">aleksanhol1@gmail.com</a>
+            </p>
+            <p>
+              <i class="fas fa-phone me-3"></i>
+              <a href="tel:980-19-602">+47 980 19 602</a>
+            </p>
+            <br>
+
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="../index.html">Aleksander Holt</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Link to Javascript -->
+  <script src="../js/index.js"></script>
+</body>
+
+</html>
